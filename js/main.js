@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     startBtn.disabled = false;
     startBtn.textContent = "🎙️ Iniciar Reconocimiento";
   }
-
+// Detener el reconocimiento manualmente
   function enviarComando(frase) {
     const name = document.getElementById("userName").value.trim();
  // Verificar que el nombre no esté vacío
