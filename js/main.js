@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function enviarComando(frase) {
     const name = document.getElementById("userName").value.trim();
  // Verificar que el nombre no esté vacío
-    fetch("http://3.231.225.116/api-gpt-php/endpoints/chat.php", {
+    fetch("http://3.235.168.226/api-gpt-php/endpoints/chat.php", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: frase, name: name })
