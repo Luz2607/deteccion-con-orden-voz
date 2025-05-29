@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voz AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Voz AI</h1>
+    </header>
+
+    <div class="cards">
+      <div class="card left-card">
+        <h2>Configuración</h2>
+        <div class="form-group">
+          <label for="userName">Nombre del dispositivo</label>
+          <input type="text" id="userName" placeholder="Ej: Alexa, Google..." />
+        </div>
+        <button id="startBtn">🎤 Iniciar</button>
+      </div>
+
+      <div class="card right-card">
+        <h2>Resultados</h2>
+        <div class="output-box">
+          <p id="outputText">Escuchando..</p>
+        </div>
+        <div class="output-box">
+          <p id="msgText">Respuesta...</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      &copy; 2025 Voz AI | Luz Maria Cruz Garcia
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

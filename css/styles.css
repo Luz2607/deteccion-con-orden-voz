@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #00ffff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #1c1c1c;
+  border: 1px solid #00ffff;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  min-width: 250px;
+  padding: 20px;
+  box-shadow: 0 0 10px #00ffff44;
+}
+
+.left-card h2,
+.right-card h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #00ffff;
+  border-radius: 6px;
+  background: #0e0e0e;
+  color: #00ffff;
+}
+
+.form-group input::placeholder {
+  color: #555;
+}
+
+button#startBtn {
+  width: 100%;
+  padding: 10px;
+  background: #00ffff;
+  border: none;
+  border-radius: 6px;
+  color: #0e0e0e;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button#startBtn:hover {
+  background: #00bebe;
+}
+
+.output-box {
+  background: #121212;
+  border: 1px solid #00ffff;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: #aaa;
+}
