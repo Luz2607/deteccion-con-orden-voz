@@ -1,6 +1,6 @@
 // Prefijo que se usará como palabra clave para activar comandos
 let ordenPrefijo = "ALEXA";
-
+// Descripción: Este script maneja el reconocimiento de voz en un navegador web, permitiendo a los usuarios interactuar con una aplicación mediante comandos de voz. Utiliza la API de reconocimiento de voz de Webkit y se comunica con un servidor PHP para procesar las solicitudes.
 // Espera a que el contenido del DOM esté completamente cargado antes de ejecutar el script
 document.addEventListener("DOMContentLoaded", () => {
   // Obtención de referencias a los elementos del DOM
